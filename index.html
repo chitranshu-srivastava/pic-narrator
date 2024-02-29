@@ -11,8 +11,9 @@
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
     <script type="module">
-      import { generateImageCaption } from "./src/client.ts";
+      import { generateImageCaption, initiateWebcam } from "./src/client.ts";
       window.generateImageCaption = generateImageCaption;
+      initiateWebcam();
     </script>
   </body>
 </html>
